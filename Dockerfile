@@ -1,4 +1,4 @@
-FROM alpine:3.1
+FROM alpine:3.2
 MAINTAINER mike@sloppy.io
 
 RUN echo "@edge http://nl.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories && \
