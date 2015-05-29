@@ -7,4 +7,6 @@ Python 2 docker image based on the ultra slim Alpine Linux. It also contains pip
 
 ## Test it
 
-`docker run --rm mikemichel/alpine-python2 python -c 'print u"http://sloppy.io - containers...where they belong ;)"'`
+```bash
+docker run --rm mikemichel/alpine-python2 python -c 'print u"http://sloppy.io - containers...where they belong ;)"'
+```
